@@ -1,0 +1,80 @@
+/*     fonts
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Share Tech Mono', monospace; */
+
+body {
+  background-color: #faf3dd;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.techMono {
+  font-family: 'Share Tech Mono', monospace;
+}
+.header {
+  background-color: #065c6f;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  z-index: 100;
+}
+.upperDiv {
+  margin-top: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 320px; */
+  background-color: #64958f;
+  text-align: center;
+  position: relative;
+
+}
+.me {
+  /* background-color: #065c6f; */
+  text-align: center;
+}
+.skills {
+  text-align: center;
+}
+.contact-me {
+  text-align: center;
+}
+.bottom-container {
+  text-align: center;
+}
+h1 {
+  color: #065c6f;
+  margin-top: 0;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  color: #065c6f;
+  font-family: 'Oswald', sans-serif;
+}
+h3 {
+  color: #065c6f;
+  font-family: 'Oswald', sans-serif;
+}
+.subtitle {
+  color: #065c6f;
+}
+.introduction {
+  padding-top: 300px;
+  padding-bottom: 320px;
+}
+.robotleftupper{
+  position: absolute;
+  bottom: 10px;
+  left: 140px;
+}
+.robotrightupper {
+  position: absolute;
+  bottom: 10px;
+  right: 250px;
+}
+.gaffeface {
+  height: 300px;
+  margin-top: 40px;
+}
