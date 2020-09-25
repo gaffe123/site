@@ -6,6 +6,7 @@
     font-family: 'Share Tech Mono', monospace; */
 
 body {
+  /* line-height: 2; */
   background-color: #faf3dd;
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -18,12 +19,12 @@ body {
   position: fixed;
   top: 0;
   text-align: center;
-  height: 100px;
+  height: 50px;
   width: 100%;
   z-index: 100;
 }
 .upperDiv {
-  margin-top: 100px;
+  margin-top: 50px;
   /* padding-top: 100px;
   padding-bottom: 320px; */
   background-color: #64958f;
@@ -34,31 +35,44 @@ body {
 .me {
   /* background-color: #065c6f; */
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .skills {
   background-color: #ffbb91;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 .contact-me {
   text-align: center;
+  margin-bottom: 40px;
 }
 .bottom-container {
   text-align: center;
 }
 h1 {
+  font-size: 3rem;
   color: #065c6f;
   margin-top: 0;
   font-family: 'Oswald', sans-serif;
 }
 h2 {
+  font-size: 2.5rem;
   color: #065c6f;
   font-family: 'Oswald', sans-serif;
 }
 h3 {
+  font-size: 2rem;
   color: #065c6f;
   font-family: 'Oswald', sans-serif;
 }
+p {
+  color: #065c6f;
+}
 .subtitle {
+  font-weight: normal;
+  font-size: 2rem;
   color: #065c6f;
 }
 .introduction {
@@ -82,4 +96,17 @@ h3 {
 .skillitem {
   height: 200px;
   margin-top: 40px;
+}
+.bottom-container {
+  background-color: #065c6f;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+.footer-link {
+  color: #ffbb91;
+}
+.copyrighttext {
+  color: #faf3dd;
+  font-size: 0.8rem;
 }
